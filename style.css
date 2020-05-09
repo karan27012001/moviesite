@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body{
+    background-color: #20152d;
+}
+body{
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 240px;
+    padding: 0;
+}
+
+.card{
+    border: yellow 3px solid;
+    float: left;
+    margin-top: 14%;
+    margin-left: 17%;
+    margin-right: 10px;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 350px;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card .poster:before{
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, #000 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+.card:hover .poster:before{
+    bottom: 0;
+}
+.card .poster img{
+    width: 100%;
+    transition: 0.5s;
+}
+.card:hover .poster img{
+    filter: blur(5px);
+    transform: translateY(-50px);
+}
+.details{
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+    bottom: -230px;
+    left: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 2;
+}
+.card:hover .details{
+    bottom: 0;
+}
+.details h2
+{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.details h2 span{
+    font-size: 8px;
+    color: #ff9800;
+}
+.rating
+{
+    position: relative;
+    padding: 5px 0;
+}
+.rating .fa{
+    color: #f7f406;
+    margin-right: 2px;
+    font-size: 10px;
+}
+.rating span{
+    color: #fff;
+    padding: 0 5px;
+}
+.tags{
+    position: relative;
+    margin-top: 5px;
+}
+.tags span{
+    padding: 2px 5px;
+    margin-right: 2px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+}
+.tags span.action{
+    background: #7206f7;
+}
+.tags span.scifi{
+    background: #f70661;
+}
+.info{
+    color: #fff;
+}
+.info p{
+    margin: 15px 0 10px;
+}
+
+.info a{
+    padding: 2px 5px;
+    margin-right: 2px;
+    color: #fff;
+    display: inline-block;
+    background: #f7d306;
+    border-radius: 4px;
+    margin-top: 3%;
+}
+.card2{
+    border: 3px green solid;
+    margin-top: 14%;
+    margin-right: 10px;
+    float: left;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 350px;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card2 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card2 .poster:before{
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, #000 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+.card2:hover .poster:before{
+    bottom: 0;
+}
+.card2 .poster img{
+    width: 100%;
+    transition: 0.5s;
+}
+.card2:hover .poster img{
+    filter: blur(5px);
+    transform: translateY(-50px);
+}
+.card2:hover .details{
+    bottom: 0;
+}
+.card3{
+    border: 3px rgb(201, 12, 69) solid;
+    margin-top: 14%;
+    margin-right: 10px;
+    float: left;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 350px;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card3 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card3 .poster:before{
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, #000 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+.card3:hover .poster:before{
+    bottom: 0;
+}
+.card3 .poster img{
+    width: 100%;
+    transition: 0.5s;
+}
+.card3:hover .poster img{
+    filter: blur(5px);
+    transform: translateY(-50px);
+}
+.card3:hover .details{
+    bottom: 0;
+}
+.card4{
+    border: 3px rgb(201, 12, 69) solid;
+    margin-top: 14%;
+    margin-right: 10px;
+    float: left;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 350px;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card4 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card4 .poster:before{
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, #000 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+.card4:hover .poster:before{
+    bottom: 0;
+}
+.card4 .poster img{
+    width: 100%;
+    transition: 0.5s;
+}
+.card4:hover .poster img{
+    filter: blur(5px);
+    transform: translateY(-50px);
+}
+.card4:hover .details{
+    bottom: 0;
+}
+.card5{
+    border: 3px rgb(201, 12, 69) solid;
+    margin-top: 14%;
+    margin-right: 10px;
+    float: left;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 350px;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card5 .poster{
+    position: relative;
+    overflow: hidden;
+}
+.card5 .poster:before{
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, #000 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+.card5:hover .poster:before{
+    bottom: 0;
+}
+.card5 .poster img{
+    width: 100%;
+    transition: 0.5s;
+}
+.card5:hover .poster img{
+    filter: blur(5px);
+    transform: translateY(-50px);
+}
+.card5:hover .details{
+    bottom: 0;
+}
